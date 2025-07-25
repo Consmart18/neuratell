@@ -18,7 +18,7 @@
             background: #fff;
             color: #232323;
             font-size: 1em;
-            line-height: 1.6;
+            line-height: 1.55;
         }
         .container {
             width: 100%;
@@ -28,21 +28,32 @@
             margin-right: 3vw;
         }
         h1 {
-            font-size: 2em;
+            font-size: 1.45em;   /* Reduced name size */
             font-weight: 700;
-            margin: 0 0 0.3em 0;
+            margin: 0 0 0.25em 0;
         }
         .subtitle {
             font-size: 1em;
             font-weight: 400;
-            margin: 0 0 1.2em 0;
+            margin: 0 0 1.1em 0;
+        }
+        .email {
+            margin-bottom: 1.4em;
+            display: block;
+        }
+        .section-title {
+            font-weight: bold;
+            margin: 1.1em 0 0.45em 0;
+            font-size: 1.03em;
+            letter-spacing: 0.01em;
         }
         ul {
-            margin: 0 0 1.2em 0;
-            padding-left: 1.1em;
+            margin: 0 0 0.55em 0;
+            padding-left: 1.15em;
         }
         li {
-            margin-bottom: 0.3em;
+            margin-bottom: 0.17em;  /* tighter bullet spacing */
+            font-size: 0.97em;      /* slightly smaller bullet text */
         }
         a {
             color: inherit;
@@ -54,17 +65,13 @@
         a:hover {
             opacity: 0.8;
         }
-        .email {
-            margin-bottom: 1.7em;
-            display: block;
-        }
         @media (max-width: 600px) {
             .container {
                 max-width: 96vw;
-                font-size: 1.05em;
+                font-size: 1.03em;
             }
             h1 {
-                font-size: 1.2em;
+                font-size: 1.09em;
             }
         }
     </style>
@@ -72,9 +79,10 @@
 <body>
     <div class="container">
         <h1>Jamiu Idowu</h1>
-        <div class="subtitle">Technical Writer&nbsp;|&nbsp;AI Researcher</div>
-        <a class="email" href="mailto:jamiu@neuratell.com">jamiu@neuratell.com</a>
+        <div class="subtitle">Technical Writer | AI Researcher</div>
+        <a class="email" href="mailto:j@neuratell.com">j@neuratell.com</a>
 
+        <div class="section-title">Work:</div>
         <ul>
             <li>11+ years’ experience writing software documentation, educational articles, and user guides for engineers, CTOs, and developers</li>
             <li>Expert-Vetted Talent on Upwork – top 1% of 18 million freelancers</li>
@@ -93,6 +101,10 @@
                 <a href="https://support.testrail.com/hc/en-us/articles/9171491041428-Comparison-for-Cases-Results-report" target="_blank">Test Cases' Report</a>,
                 <a href="https://pusher.com/tutorials/realtime-results-nodejs/" target="_blank">Real-time polling feed with React & node.js</a>
             </li>
+        </ul>
+
+        <div class="section-title">Background:</div>
+        <ul>
             <li>Co-founded <a href="http://sahel.ai" target="_blank">Sahel AI</a> – AI for Legal Work</li>
             <li>MSc (Distinction) in AI from <a href="http://ucl.ac.uk" target="_blank">UCL</a></li>
             <li>Retired civil engineer; built earth dams and canals for irrigation in Northern Nigeria</li>
@@ -102,6 +114,7 @@
             <li><strong>AI research</strong> published in Elsevier & Springer Nature journals: <a href="https://link.springer.com/article/10.1007/s40593-023-00389-4" target="_blank">1</a>, <a href="https://www.sciencedirect.com/science/article/pii/S2666920X24000705" target="_blank">2</a>, <a href="https://link.springer.com/article/10.1007/s43681-024-00541-3" target="_blank">3</a></li>
         </ul>
 
+        <div class="section-title">I believe:</div>
         <ul>
             <li>Cost of inaction &gt; cost of action!</li>
             <li>Most inquiries that advanced human progress started with "What if..."</li>
